@@ -1,12 +1,9 @@
-import MainPage from "./components/MainPage";
-import './components/MainPage.css'
+import './MainPage.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./App.css";
 
-function App() {
+function MainPage() {
   return (
-    <div className="App">
-      {/* <MainPage/> */}
+    <>
       <section class="container mt-5 mb-5">
         <div class="row">
           <div class="col-6">
@@ -50,8 +47,8 @@ function App() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 
-export default App;
+export default MainPage;
